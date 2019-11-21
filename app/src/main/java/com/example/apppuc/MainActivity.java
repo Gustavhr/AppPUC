@@ -14,12 +14,13 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
 
-    ImageView itau,bradesco;
+    ImageView itau,bradesco,caixa;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ImageView caixa = (ImageView) findViewById(R.id.imgviewcaixa);
         ImageView itau = (ImageView) findViewById(R.id.imgviewitau);
         ImageView bradesco = (ImageView) findViewById(R.id.imgviewbradesco);
 
@@ -40,6 +41,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        caixa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this,YoutubeView.class);
+                i.putExtra("id","K6OsLf9xz4c");
+                startActivity(i);
+            }
+        });
+
+
+
+
 
 
 
