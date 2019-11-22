@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        getSupportActionBar().setTitle("AJUDA BANCOS");
         ImageView caixa = (ImageView) findViewById(R.id.imgviewcaixa);
         ImageView itau = (ImageView) findViewById(R.id.imgviewitau);
         ImageView bradesco = (ImageView) findViewById(R.id.imgviewbradesco);

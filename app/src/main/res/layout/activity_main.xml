@@ -18,22 +18,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_gravity="center">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
 
                     <ImageView
                         android:id="@+id/imgviewitau"
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
                         android:clickable="true"
                         app:srcCompat="@drawable/itau" />
                 </LinearLayout>
@@ -43,17 +48,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_gravity="center">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
 
                     <ImageView
                         android:id="@+id/imgviewbradesco"
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
                         android:clickable="true"
                         app:srcCompat="@drawable/bradesco2" />
                 </LinearLayout>
@@ -62,17 +70,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_gravity="center">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
 
                     <ImageView
                         android:id="@+id/imgviewcaixa"
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
                         app:srcCompat="@drawable/caixa" />
                 </LinearLayout>
             </LinearLayout>
